@@ -224,10 +224,20 @@ _:-ms-input-placeholder, :root .demo-graph {
 .grid div{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.demo-content{
+  height: 90%;
+  padding: 3rem !important;
 }
 
 @media screen and (max-width: 480px) {
   .grid{
       grid-template-columns: 1fr;
+  }
+
+  .footer-btn{
+    display: none !important;
   }
 }
